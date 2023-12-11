@@ -32,7 +32,15 @@ class MainScreen(carContext: CarContext) : Screen(carContext) {
         val categoryBox = mutableListOf<String>("Row 1", "Row 2", "Row 3", "Row 4")
 
         categoryBox.forEach { str ->
-            itemListBuilder.addItem(Row.Builder().setTitle(str).build())
+            itemListBuilder.addItem(Row.Builder()
+                .setTitle(str)
+                .setOnClickListener {
+                    screenManager.push(SubListScreen(
+                        carContext,
+                        str
+                    ))
+                }
+                .build())
 
         }
 
