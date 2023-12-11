@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Hello World!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="grant_location_permission_toast_msg">Grant location Permission to see current location</string>
+    <string name="browse_places_title">Browse Places</string>
+    <string name="lorem_ipsum">Place List Template Demo</string>
+    <string name="ok">Godkänn</string>
+    <string name="skip">Avböj</string>
+    <string name="location_permission_message">För att du enkelt ska kunna se avstånd till platser du är intresserad av att besöka rekommenderar vi att du tillåter att dela din position.</string>
+    <string name="navigate">Navigera</string>
+    <string name="about">Om platsen</string>
+    <string name="ratings_text">Betyg</string>
+    <string name="phone_number">+46 700 51 55 36</string>
+    <string name="phone_title">Telefonnummer</string>
+    <string name="phone_button_text">Ring till platsen</string>
+    <string name="street_address">Fredsgatan 5</string>
+    <string name="city">302 46 Halmstad</string>
+    <string name="address_title">Address</string>
+    <string name="navigation_error_message">Det gick inte att starta navigeringen.</string>
+    <string name="dialing_error_message">Det gick inte att ringa till platsen.</string>
+    <string name="category_title_favorite">Favoriter</string>
+    <string name="your_favorites_text">Dina favoriter</string>
+    <string name="header_title">Halland points of interests</string>
+
+
+</resources>
